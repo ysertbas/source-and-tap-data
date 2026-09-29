@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "New Jersey Tap Water Sources and PFAS Results by Town (2025 reports)",
+  "description": "<p>Links 41 New Jersey municipalities to the public water systems that serve them and records the PFAS results those systems published in their 2025 Consumer Confidence Reports. Every measurement row was checked by hand against the original utility report. Values are reproduced as printed, with the report's own value type recorded, because utilities report PFAS differently (highest single result, running annual average, or average). A reported value above a limit is not a legal violation. See README for methodology and limitations.</p><p>Published by Source &amp; Tap (https://sourceandtap.com).</p>",
+  "creators": [
+    {
+      "name": "Sertbaş, Yıldırım",
+      "affiliation": "Source & Tap",
+      "orcid": "0009-0008-4108-0090"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "New Jersey",
+    "drinking water",
+    "PFAS",
+    "PFOA",
+    "PFOS",
+    "consumer confidence report",
+    "public water systems",
+    "UCMR 5"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://sourceandtap.com",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ],
+  "language": "eng",
+  "version": "2026.09"
+}

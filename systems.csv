@@ -1,0 +1,13 @@
+pwsid,system_name,operator,ccr_url,ccr_report_year,pfas_results_in_ccr
+NJ0323001,"New Jersey American Water, Mount Holly system",New Jersey American Water,https://www.amwater.com/ccr/mountholly.pdf,2025,true
+NJ0327001,"New Jersey American Water, Western system",New Jersey American Water,https://www.amwater.com/ccr/delaware.pdf,2025,true
+NJ0508001,"New Jersey American Water, Ocean City system",New Jersey American Water,https://www.amwater.com/ccr/oceancity.pdf,2025,false
+NJ0712001,"New Jersey American Water, Short Hills system",New Jersey American Water,https://www.amwater.com/ccr/shorthills.pdf,2025,true
+NJ0808001,"New Jersey American Water, Harrison system",New Jersey American Water,https://www.amwater.com/ccr/harrison.pdf,2025,true
+NJ1103001,"Aqua New Jersey, Hamilton Square system",Aqua New Jersey,https://prod.aquawater.com/WaterQualityReports/2025/NJ/NJ1103001.pdf,2025,true
+NJ1345001,"New Jersey American Water, Coastal North system",New Jersey American Water,https://www.amwater.com/ccr/coastalnorth.pdf,2025,true
+NJ1707001,"New Jersey American Water, Penns Grove system",New Jersey American Water,https://www.amwater.com/ccr/pennsgrove.pdf,2025,false
+NJ2004001,"New Jersey American Water, Liberty system",New Jersey American Water,https://www.amwater.com/ccr/liberty.pdf,2025,true
+NJ2004002,"New Jersey American Water, Raritan system",New Jersey American Water,https://www.amwater.com/ccr/raritan.pdf,2025,true
+NJ2119001,"Aqua New Jersey, Phillipsburg system",Aqua New Jersey,https://prod.aquawater.com/WaterQualityReports/2025/NJ/NJ2119001.pdf,2025,true
+NJ2121001,"New Jersey American Water, Washington / Oxford system",New Jersey American Water,https://www.amwater.com/ccr/washingtonoxford.pdf,2025,true
