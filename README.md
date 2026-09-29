@@ -1,5 +1,7 @@
 # New Jersey Tap Water Sources and PFAS Results by Town (2025 reports)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23045751.svg)](https://doi.org/10.5281/zenodo.23045751)
+
 Published by [Source & Tap](https://sourceandtap.com), an independent website that shows what is in New Jersey tap water, town by town.
 
 This dataset links 41 New Jersey municipalities to the public water systems that serve them, and records the PFAS results those systems published in their 2025 Consumer Confidence Reports (CCRs). Every measurement row was checked by hand against the original utility report.
@@ -71,7 +73,7 @@ CC BY 4.0. You may reuse and adapt this data with attribution to Source & Tap.
 
 ## Citation
 
-Sertbaş, Y. (2026). *New Jersey Tap Water Sources and PFAS Results by Town (2025 reports)* [Data set]. Source & Tap. Zenodo.
+Sertbaş, Y. (2026). *New Jersey Tap Water Sources and PFAS Results by Town (2025 reports)* [Data set]. Source & Tap. Zenodo. https://doi.org/10.5281/zenodo.23045751
 
 ## Contact
 
