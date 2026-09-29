@@ -71,7 +71,7 @@ CC BY 4.0. You may reuse and adapt this data with attribution to Source & Tap.
 
 ## Citation
 
-Sertbaş, Y. (2026). *New Jersey Tap Water Sources and PFAS Results by Town (2025 reports)* [Data set]. Source & Tap. Zenodo. https://doi.org/[DOI]
+Sertbaş, Y. (2026). *New Jersey Tap Water Sources and PFAS Results by Town (2025 reports)* [Data set]. Source & Tap. Zenodo.
 
 ## Contact
 
