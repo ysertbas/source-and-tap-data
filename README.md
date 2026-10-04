@@ -4,7 +4,7 @@
 
 Published by [Source & Tap](https://sourceandtap.com), an independent website that shows what is in New Jersey tap water, town by town.
 
-This dataset links 41 New Jersey municipalities to the public water systems that serve them, and records the PFAS results those systems published in their 2025 Consumer Confidence Reports (CCRs). Every measurement row was checked by hand against the original utility report.
+This dataset links 41 New Jersey municipalities to the public water systems that serve them, and records the PFAS results those systems published in their 2025 Consumer Confidence Reports (CCRs). Every measurement row was matched to the original utility report: values were extracted with an AI model (Claude, by Anthropic) together with the exact passage they came from, each passage was checked word for word against the report, and flagged values were checked by hand.
 
 ## Files
 
@@ -50,13 +50,13 @@ Utilities do not report PFAS the same way. Two numbers side by side in this file
 
 **A reported value above a limit is not a legal violation.** Federal compliance for PFOA and PFOS is determined by running annual averages at each sampling point, and the federal compliance deadline has not yet arrived. Every compliance row in this dataset is marked "Compliance Achieved: Yes" by the utility.
 
-**Federal limits status (as of this release, September 2026).** EPA's April 2024 rule set enforceable limits of 4.0 ppt for PFOA and PFOS, with compliance due in April 2029. In May 2026 EPA proposed letting systems request two more years, to April 2031. That proposal was not final at the time of release. EPA has also moved to withdraw the 2024 limits for PFHxS, PFNA, HFPO-DA and the Hazard Index mixture, so this dataset lists federal limits for PFOA and PFOS only. New Jersey's limits (PFOA 14 ppt, PFOS 13 ppt, PFNA 13 ppt) are in effect.
+**Federal limits status (as of this release, September 2026).** EPA's April 2024 rule set enforceable limits of 4.0 ppt for PFOA and PFOS, with compliance due in April 2029. In May 2026 EPA proposed letting systems request two more years, to April 2031. That proposal was not final at the time of release. EPA has also proposed withdrawing the 2024 limits for PFHxS, PFNA, HFPO-DA and the Hazard Index mixture; that proposal was also not final at the time of release. This dataset lists federal limits for PFOA and PFOS only. New Jersey's limits (PFOA 14 ppt, PFOS 13 ppt, PFNA 13 ppt) are in effect.
 
 ## Methodology
 
 1. **Town to system mapping.** Each municipality is matched to the water systems serving it using Census geography and population overlap. Three towns were verified by hand against utility sources, and their primary share is set to 1.0.
 2. **Report collection.** 2025 CCRs were collected from each utility.
-3. **Extraction.** PFAS values were extracted with an automated pipeline and every row in `measurements.csv` was then checked by hand against the original report. Values are reproduced as printed, including apparent errors (see `notes`).
+3. **Extraction and checking.** An AI model (Claude, by Anthropic) read each report and returned every value together with the exact passage it came from. A script then confirmed that each passage appears word for word in the original report; values that could not be matched were not published. A word-for-word match confirms that a number is in the report, not that it came from the right column, so values were also compared with EPA's UCMR 5 results and flagged values were checked by hand. Reports whose tables are images were checked by hand. Values are reproduced as printed, including apparent errors (see `notes`). The full method is described at https://sourceandtap.com/methodology/.
 4. **Population.** U.S. Census Bureau, Population Estimates Program, Vintage 2025 (July 1, 2025), county subdivision level.
 
 ## Known limitations
